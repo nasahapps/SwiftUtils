@@ -51,4 +51,17 @@ public class Utils {
         vc.presentViewController(alert, animated: true, completion: nil)
     }
     
+    public static func runInBackground(background: (() -> Void)? = nil, completion: (() -> Void)? = nil) {
+        dispatch_async(dispatch_get_global_queue(Int(QOS_CLASS_USER_INITIATED.rawValue), 0)) { () -> Void in
+            if background != nil {
+                background!()
+            }
+            
+            dispatch_after(0, dispatch_get_main_queue(), { () -> Void in
+                if completion != nil {
+                    completion!()
+                }
+            })
+        }
+    }    
 }
