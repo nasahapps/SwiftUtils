@@ -49,19 +49,23 @@ public class Utils {
         let defaultAction = UIAlertAction(title: buttonTitle, style: UIAlertActionStyle.Default, handler: action)
         alert.addAction(defaultAction)
         vc.presentViewController(alert, animated: true, completion: nil)
-    }
-    
-    public static func runInBackground(background: (() -> Void)? = nil, completion: (() -> Void)? = nil) {
-        dispatch_async(dispatch_get_global_queue(Int(QOS_CLASS_USER_INITIATED.rawValue), 0)) { () -> Void in
-            if background != nil {
-                background!()
-            }
-            
-            dispatch_after(0, dispatch_get_main_queue(), { () -> Void in
-                if completion != nil {
-                    completion!()
-                }
-            })
-        }
     }    
+}
+
+infix operator ~> {}
+
+/** Serial dispatch queue used by the ~> operator. */
+private let queue = dispatch_queue_create("serial-worker", DISPATCH_QUEUE_SERIAL)
+
+/** 
+Executes the left-hand closure on a background thread and, upon completion,
+the right-hand closure on the main thread.
+*/
+public func ~> <R> (backgroundClosure: () -> R, mainClosure: (result: R) -> ()) {
+    dispatch_async(queue) { () -> Void in
+        let result = backgroundClosure()
+        dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            mainClosure(result: result)
+        })
+    }
 }
