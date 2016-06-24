@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "NasahUtils"
-s.version          = "0.0.1"
+s.version          = "0.0.2"
 s.summary          = "Helper methods for everyday Swift life"
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ s.summary          = "Helper methods for everyday Swift life"
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 s.description      = <<-DESC
-Just Swift things
+Just Swift things. Helper classes to make iOS life easier.
 DESC
 
 s.homepage         = "https://github.com/nasahapps/SwiftUtils"
