@@ -1,0 +1,14 @@
+PODS:
+  - NasahUtils (0.1.0)
+
+DEPENDENCIES:
+  - NasahUtils (from `../`)
+
+EXTERNAL SOURCES:
+  NasahUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NasahUtils: 944c7b3197d2b2adf31c66c6d61deec35c3207e2
+
+COCOAPODS: 0.39.0

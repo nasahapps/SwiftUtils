@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44F6DB3E2B79884914954BE55BDFBC3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		57B969DEA62F7F5E13A562C959D14398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		758E23301C14C35600902524 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E232F1C14C35600902524 /* Utils.swift */; };
+		7591711F1C213F33006560D8 /* BasePreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7591711E1C213F33006560D8 /* BasePreferencesService.swift */; };
+		7B69BB2945123D7599FBD6FD41246A55 /* Pods-NasahUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D65210B42C6777AB070D4F0579292D /* Pods-NasahUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D71C46B43B1529D0D483C6EF2670F69 /* NasahUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E37D10FBDCAECC9259972CECB895F406 /* NasahUtils.bundle */; };
+		7F8B19E8E17557701D278467C2935C30 /* NasahUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3279710BB0A47B2F36D52060255D23 /* NasahUtils-dummy.m */; };
+		830A4A24717A02BF2821ECDA38E24120 /* Pods-NasahUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D317559FE0E6023AF1C9EAFB117A6 /* Pods-NasahUtils_Tests-dummy.m */; };
+		8D4589BD6484F55808C11006AA5F1842 /* NasahUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C67FD0EAFC85E6D3D2F6CDB70FED9AA7 /* NasahUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5C64F4C3988B6043E87706BAB83DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8916D3DA91C70E9E8367DE759C7547F4;
+			remoteInfo = "NasahUtils-NasahUtils";
+		};
+		5D7686AA4D009E2093A8468BCD45EB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F00FC94E4E7FA8A976CC50BD67BC444;
+			remoteInfo = NasahUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186879A448B10E962E3614C44997448A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0388EC485198DB7DE896E7DB8AB248 /* NasahUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NasahUtils-prefix.pch"; sourceTree = "<group>"; };
+		1D3279710BB0A47B2F36D52060255D23 /* NasahUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NasahUtils-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EA79806D9009A530136DE7B25971604 /* Pods-NasahUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NasahUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		623F301A73E6E4C135AACF474DBD86F2 /* Pods-NasahUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NasahUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		70BB48773D93DCBD87A58F5C2E248EAF /* NasahUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NasahUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758E232F1C14C35600902524 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7591711E1C213F33006560D8 /* BasePreferencesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePreferencesService.swift; sourceTree = "<group>"; };
+		8B35593E9F86C340AFFAAA17F638A7BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8ADF9E8F94A869F0C743134E6B4438 /* Pods-NasahUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NasahUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5F93DA77A55E4296F5B92CBE0B2C3E6 /* Pods-NasahUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NasahUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AC4D317559FE0E6023AF1C9EAFB117A6 /* Pods-NasahUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NasahUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C20DF7FAD591468990C8CAA9CB6BE4D6 /* NasahUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NasahUtils.modulemap; sourceTree = "<group>"; };
+		C67FD0EAFC85E6D3D2F6CDB70FED9AA7 /* NasahUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NasahUtils-umbrella.h"; sourceTree = "<group>"; };
+		D0D65210B42C6777AB070D4F0579292D /* Pods-NasahUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NasahUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E37D10FBDCAECC9259972CECB895F406 /* NasahUtils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasahUtils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BD9EFF595937C42818ED4F75A43A5F /* Pods-NasahUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NasahUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4F94D68FDF9CCC1F079A34BFD2F5A4B /* NasahUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NasahUtils.xcconfig; sourceTree = "<group>"; };
+		E81485B84974A59DF8D83CCC471DDAEB /* Pods-NasahUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NasahUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		F1EBEFC267E1578B9740160892D77C4D /* Pods-NasahUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NasahUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F30D6B8780A97D94B8E4A3916FF410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1826279A488830A6102BE7B94C6C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F6DB3E2B79884914954BE55BDFBC3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE0A2712FFDCAD28AFF9FD19C531E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B969DEA62F7F5E13A562C959D14398 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133B506822D0BFA12DD7F78C28429455 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				186879A448B10E962E3614C44997448A /* Info.plist */,
+				C20DF7FAD591468990C8CAA9CB6BE4D6 /* NasahUtils.modulemap */,
+				E4F94D68FDF9CCC1F079A34BFD2F5A4B /* NasahUtils.xcconfig */,
+				1D3279710BB0A47B2F36D52060255D23 /* NasahUtils-dummy.m */,
+				1C0388EC485198DB7DE896E7DB8AB248 /* NasahUtils-prefix.pch */,
+				C67FD0EAFC85E6D3D2F6CDB70FED9AA7 /* NasahUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NasahUtils";
+			sourceTree = "<group>";
+		};
+		1CF1B28C98C3AA4B0BDCB1B77410DC7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				758E232F1C14C35600902524 /* Utils.swift */,
+				7591711E1C213F33006560D8 /* BasePreferencesService.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		499CDD128E4C9641A1A5B339A78A37E8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1B28C98C3AA4B0BDCB1B77410DC7A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4ADB1837C3324EB49FAD5CA3A8E2BC1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F10F4E6095B83E02083D564DA715A /* NasahUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		651CC153AF089BD4B08732AA06DDD857 /* Pods-NasahUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B35593E9F86C340AFFAAA17F638A7BE /* Info.plist */,
+				E81485B84974A59DF8D83CCC471DDAEB /* Pods-NasahUtils_Tests.modulemap */,
+				9C8ADF9E8F94A869F0C743134E6B4438 /* Pods-NasahUtils_Tests-acknowledgements.markdown */,
+				5EA79806D9009A530136DE7B25971604 /* Pods-NasahUtils_Tests-acknowledgements.plist */,
+				AC4D317559FE0E6023AF1C9EAFB117A6 /* Pods-NasahUtils_Tests-dummy.m */,
+				A5F93DA77A55E4296F5B92CBE0B2C3E6 /* Pods-NasahUtils_Tests-frameworks.sh */,
+				623F301A73E6E4C135AACF474DBD86F2 /* Pods-NasahUtils_Tests-resources.sh */,
+				D0D65210B42C6777AB070D4F0579292D /* Pods-NasahUtils_Tests-umbrella.h */,
+				F1EBEFC267E1578B9740160892D77C4D /* Pods-NasahUtils_Tests.debug.xcconfig */,
+				E3BD9EFF595937C42818ED4F75A43A5F /* Pods-NasahUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-NasahUtils_Tests";
+			path = "Target Support Files/Pods-NasahUtils_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				4ADB1837C3324EB49FAD5CA3A8E2BC1A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CDF28103949807AA979EEB70AB5C2430 /* Products */,
+				9A8B1A7F88D723BA43CA6AF976C1336A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8B1A7F88D723BA43CA6AF976C1336A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				651CC153AF089BD4B08732AA06DDD857 /* Pods-NasahUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF6F10F4E6095B83E02083D564DA715A /* NasahUtils */ = {
+			isa = PBXGroup;
+			children = (
+				499CDD128E4C9641A1A5B339A78A37E8 /* Pod */,
+				133B506822D0BFA12DD7F78C28429455 /* Support Files */,
+			);
+			name = NasahUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CDF28103949807AA979EEB70AB5C2430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E37D10FBDCAECC9259972CECB895F406 /* NasahUtils.bundle */,
+				70BB48773D93DCBD87A58F5C2E248EAF /* NasahUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F651AD4ACCEDA1845A6796BD4CDE55E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69BB2945123D7599FBD6FD41246A55 /* Pods-NasahUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9804A761122FB1F7A4DB0F9C46D0FBE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4589BD6484F55808C11006AA5F1842 /* NasahUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F00FC94E4E7FA8A976CC50BD67BC444 /* NasahUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B7C19B6A85AAE6D1F797EE4399C4EE /* Build configuration list for PBXNativeTarget "NasahUtils" */;
+			buildPhases = (
+				6CA24E24496764D9B679CB23590A5E2C /* Sources */,
+				6C1826279A488830A6102BE7B94C6C3F /* Frameworks */,
+				54A502D32E3A6BD05314D49F5E4AB5DD /* Resources */,
+				9804A761122FB1F7A4DB0F9C46D0FBE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				698B328845057A802818157354CF1C6A /* PBXTargetDependency */,
+			);
+			name = NasahUtils;
+			productName = NasahUtils;
+			productReference = 70BB48773D93DCBD87A58F5C2E248EAF /* NasahUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8916D3DA91C70E9E8367DE759C7547F4 /* NasahUtils-NasahUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C7986E88797C0965A351537C8D46CC /* Build configuration list for PBXNativeTarget "NasahUtils-NasahUtils" */;
+			buildPhases = (
+				E082863B8C66B85BD38214E89C96CED7 /* Sources */,
+				68F30D6B8780A97D94B8E4A3916FF410 /* Frameworks */,
+				9F430E9E462943C67D5556985CCD3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NasahUtils-NasahUtils";
+			productName = "NasahUtils-NasahUtils";
+			productReference = E37D10FBDCAECC9259972CECB895F406 /* NasahUtils.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F80A0C93C23B2845F96628C129B23EC8 /* Pods-NasahUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30A9F070A0863DEDA0E1441951154E9 /* Build configuration list for PBXNativeTarget "Pods-NasahUtils_Tests" */;
+			buildPhases = (
+				B24F73E154E10016F90BF3FAB47277A5 /* Sources */,
+				95BE0A2712FFDCAD28AFF9FD19C531E8 /* Frameworks */,
+				2F651AD4ACCEDA1845A6796BD4CDE55E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17FF37A5F2A82443ECB8FD87FCBDE380 /* PBXTargetDependency */,
+			);
+			name = "Pods-NasahUtils_Tests";
+			productName = "Pods-NasahUtils_Tests";
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					6F00FC94E4E7FA8A976CC50BD67BC444 = {
+						LastSwiftMigration = 0830;
+					};
+					8916D3DA91C70E9E8367DE759C7547F4 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CDF28103949807AA979EEB70AB5C2430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F00FC94E4E7FA8A976CC50BD67BC444 /* NasahUtils */,
+				8916D3DA91C70E9E8367DE759C7547F4 /* NasahUtils-NasahUtils */,
+				F80A0C93C23B2845F96628C129B23EC8 /* Pods-NasahUtils_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A502D32E3A6BD05314D49F5E4AB5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D71C46B43B1529D0D483C6EF2670F69 /* NasahUtils.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F430E9E462943C67D5556985CCD3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA24E24496764D9B679CB23590A5E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7591711F1C213F33006560D8 /* BasePreferencesService.swift in Sources */,
+				7F8B19E8E17557701D278467C2935C30 /* NasahUtils-dummy.m in Sources */,
+				758E23301C14C35600902524 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24F73E154E10016F90BF3FAB47277A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830A4A24717A02BF2821ECDA38E24120 /* Pods-NasahUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E082863B8C66B85BD38214E89C96CED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17FF37A5F2A82443ECB8FD87FCBDE380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NasahUtils;
+			target = 6F00FC94E4E7FA8A976CC50BD67BC444 /* NasahUtils */;
+			targetProxy = 5D7686AA4D009E2093A8468BCD45EB34 /* PBXContainerItemProxy */;
+		};
+		698B328845057A802818157354CF1C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NasahUtils-NasahUtils";
+			target = 8916D3DA91C70E9E8367DE759C7547F4 /* NasahUtils-NasahUtils */;
+			targetProxy = 3B5C64F4C3988B6043E87706BAB83DC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		087883AAB9B5FE90A435FDEDD74BD7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F94D68FDF9CCC1F079A34BFD2F5A4B /* NasahUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NasahUtils/NasahUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NasahUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NasahUtils/NasahUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = NasahUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64C115A0ED204C1670B47A7123FEB8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F94D68FDF9CCC1F079A34BFD2F5A4B /* NasahUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NasahUtils/NasahUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NasahUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NasahUtils/NasahUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = NasahUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		931BE8648479E7C2DDFD69FFAA6E8C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BD9EFF595937C42818ED4F75A43A5F /* Pods-NasahUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NasahUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NasahUtils_Tests/Pods-NasahUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NasahUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB57636AC5BB5C25D8A11EEC0CB54DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F94D68FDF9CCC1F079A34BFD2F5A4B /* NasahUtils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NasahUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D53DC00D002012B331DAB025702C32D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F94D68FDF9CCC1F079A34BFD2F5A4B /* NasahUtils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NasahUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DAE0BB8F4EB40D5CDAE1A2BCE70CE470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EBEFC267E1578B9740160892D77C4D /* Pods-NasahUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NasahUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NasahUtils_Tests/Pods-NasahUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NasahUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B7C19B6A85AAE6D1F797EE4399C4EE /* Build configuration list for PBXNativeTarget "NasahUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087883AAB9B5FE90A435FDEDD74BD7F8 /* Debug */,
+				64C115A0ED204C1670B47A7123FEB8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C7986E88797C0965A351537C8D46CC /* Build configuration list for PBXNativeTarget "NasahUtils-NasahUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53DC00D002012B331DAB025702C32D2 /* Debug */,
+				CB57636AC5BB5C25D8A11EEC0CB54DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30A9F070A0863DEDA0E1441951154E9 /* Build configuration list for PBXNativeTarget "Pods-NasahUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE0BB8F4EB40D5CDAE1A2BCE70CE470 /* Debug */,
+				931BE8648479E7C2DDFD69FFAA6E8C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

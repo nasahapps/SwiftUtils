@@ -8,39 +8,39 @@
 
 import Foundation
 
-public class BasePreferencesService {
+open class BasePreferencesService {
     
-    var prefs: NSUserDefaults!
+    var prefs: UserDefaults!
     
     public init() {
-        self.prefs = NSUserDefaults.standardUserDefaults()
+        self.prefs = UserDefaults.standard
     }
     
-    public func putInt(key: String, value: Int) {
-        prefs.setInteger(value, forKey: key)
+    open func putInt(_ key: String, value: Int) {
+        prefs.set(value, forKey: key)
         prefs.synchronize()
     }
     
-    public func getInt(key: String) -> Int {
-        return prefs.integerForKey(key)
+    open func getInt(_ key: String) -> Int {
+        return prefs.integer(forKey: key)
     }
     
-    public func putBool(key: String, value: Bool) {
-        prefs.setBool(value, forKey: key)
+    open func putBool(_ key: String, value: Bool) {
+        prefs.set(value, forKey: key)
         prefs.synchronize()
     }
     
-    public func getBool(key: String) -> Bool {
-        return prefs.boolForKey(key)
+    open func getBool(_ key: String) -> Bool {
+        return prefs.bool(forKey: key)
     }
     
-    public func putObject(key: String, value: AnyObject) {
-        prefs.setObject(value, forKey: key)
+    open func putObject(_ key: String, value: AnyObject) {
+        prefs.set(value, forKey: key)
         prefs.synchronize()
     }
     
-    public func getObject(key: String) -> AnyObject? {
-        return prefs.objectForKey(key)
+    open func getObject(_ key: String) -> AnyObject? {
+        return prefs.object(forKey: key) as AnyObject
     }
     
 }
