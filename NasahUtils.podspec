@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "NasahUtils"
-s.version          = "0.0.3"
+s.version          = "0.0.4"
 s.summary          = "Helper methods for everyday Swift life"
 
 # This description is used to generate tags and improve search results.
