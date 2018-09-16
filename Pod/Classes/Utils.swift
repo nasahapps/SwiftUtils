@@ -45,8 +45,8 @@ open class Utils {
     }
     
     public static func showAlert(_ vc: UIViewController, title: String?, message: String?, buttonTitle: String?, action: ((UIAlertAction) -> Void)?) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
-        let defaultAction = UIAlertAction(title: buttonTitle, style: UIAlertActionStyle.default, handler: action)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        let defaultAction = UIAlertAction(title: buttonTitle, style: UIAlertAction.Style.default, handler: action)
         alert.addAction(defaultAction)
         vc.present(alert, animated: true, completion: nil)
     }
