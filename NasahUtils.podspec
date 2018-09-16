@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "NasahUtils"
-s.version          = "0.0.4"
+s.version          = "0.0.5"
 s.summary          = "Helper methods for everyday Swift life"
 
 # This description is used to generate tags and improve search results.
@@ -27,8 +27,7 @@ s.author           = { "Hakeem Hasan" => "nasahapps@gmail.com" }
 s.source           = { :git => "https://github.com/nasahapps/SwiftUtils.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-s.platform     = :ios, '10.0'
-s.requires_arc = true
+s.platform     = :ios, '11.0'
 
 s.source_files = 'Pod/Classes/**/*'
 #s.resource_bundles = {

@@ -38,13 +38,13 @@ open class Utils {
         public static let IS_IPAD_PRO = ScreenSize.SCREEN_MAX_LENGTH >= 1366.0
     }
     
-    open static func isPortrait(_ bounds: CGRect) -> Bool {
+    public static func isPortrait(_ bounds: CGRect) -> Bool {
         return bounds.width < bounds.height
         //        return UIDevice.currentDevice().orientation.isPortrait
         //        return UIDevice.currentDevice().orientation == UIDeviceOrientation.Portrait || UIDevice.currentDevice().orientation == UIDeviceOrientation.PortraitUpsideDown
     }
     
-    open static func showAlert(_ vc: UIViewController, title: String?, message: String?, buttonTitle: String?, action: ((UIAlertAction) -> Void)?) {
+    public static func showAlert(_ vc: UIViewController, title: String?, message: String?, buttonTitle: String?, action: ((UIAlertAction) -> Void)?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         let defaultAction = UIAlertAction(title: buttonTitle, style: UIAlertActionStyle.default, handler: action)
         alert.addAction(defaultAction)
